@@ -14,6 +14,8 @@ on:
 jobs:
   update-sponsors:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Print Contexts/Inputs/Variables/Secrets
         run: |
