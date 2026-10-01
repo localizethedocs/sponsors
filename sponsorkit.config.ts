@@ -31,7 +31,12 @@ export default defineConfig({
       preset: past,
     },
     {
-      title: 'Sponsors',          /* 5, Range: 0~9 */
+      title: 'Bakers',            /* 1, Range: 0~2 */
+      preset: past,
+    },
+    {
+      title: 'Sponsors',          /* 5, Range: 3~9 */
+      monthlyDollars: 3,
       preset: tierPresets.xs,
     },
     {
