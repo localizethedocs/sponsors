@@ -18,7 +18,7 @@ export default defineConfig({
     'afdian',
   ],
   afdian: {
-    exchangeRate: 4,
+    exchangeRate: 5,  /* 5 yuan = 1 dollar */
   },
 
   outputDir: './static',
